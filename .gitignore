@@ -1,5 +1,6 @@
 ## Python.gitignore
 # Private files like yaml output input
+COMMON_PROJECT_SKILLS.md
 data/
 output/
 input/
