@@ -1,0 +1,11 @@
+app:
+  log_level: ${LOG_LEVEL:-INFO}
+  input_path: ${INPUT_PATH:-input}
+  output_dir: ${OUTPUT_DIR:-output}
+  default_entry: quarterly_stats
+
+flows:
+  standardize_activity_info:
+    input_file: ${INPUT_FILE:-活动信息.xlsx}
+  quarterly_person_times:
+    years: ${STAT_YEARS:-2025,2026}
